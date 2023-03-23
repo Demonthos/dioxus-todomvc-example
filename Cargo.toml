@@ -1,0 +1,12 @@
+[package]
+name = "todomvc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dioxus-web = "*"
+dioxus = "*"
+log = "0.4.17"
+wasm-logger = "0.2.0"
+futures-util = "0.3.27"
+im-rc = "15.0.0"
