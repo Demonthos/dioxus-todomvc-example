@@ -4,13 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dioxus-web = "*"
-dioxus = "*"
+dioxus-web = "0.3"
+dioxus = "0.3"
 im-rc = "15.0.0"
 
 [profile.release]
 lto = true
 panic = "abort"
 opt-level = 'z'
-strip = true
+strip = "debuginfo"
 codegen-units = 1
